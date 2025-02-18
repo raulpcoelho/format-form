@@ -22,4 +22,3 @@ def format_sheet(file_path: str) -> None:
             cell.alignment = center_alignment
 
     workbook.save(file_path)
-    print(f"File saved as {file_path}")
